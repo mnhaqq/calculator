@@ -55,7 +55,7 @@ body {
 
 .del,
 .clear {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     flex-basis: 50%;
     border-radius: 12px;
     font-size: larger;
@@ -80,7 +80,7 @@ body {
 }
 
 .num {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     color: black;
     font-size: larger;
     font-weight: 550;
@@ -88,4 +88,11 @@ body {
     margin: 3px;
     flex-grow: 23%;
     flex-basis: 23%;
+}
+
+.display {
+    display: flex;
+    font-size: 50px;
+    align-items: center;
+    justify-content: end;
 }
