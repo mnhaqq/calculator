@@ -9,7 +9,7 @@ const mapOperators = {
     "-" : subtract,
     "*" : multiply,
     "/" : divide,
-}
+};
 
 const displayArea = document.querySelector(".display");
 const buttons = document.querySelectorAll(".num");
