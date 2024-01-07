@@ -13,7 +13,8 @@ const mapOperators = {
 
 const displayArea = document.querySelector(".display");
 const buttons = document.querySelectorAll(".num");
-const clearButton = document.querySelector(".clear")
+const clearButton = document.querySelector(".clear");
+const deleteButton = document.querySelector(".del");
 
 buttons.forEach(button => {
     button.addEventListener('click', () => {
@@ -56,7 +57,13 @@ buttons.forEach(button => {
 });
 
 clearButton.addEventListener('click', resetCalculator);
+deleteButton.addEventListener('click', deleteChar);
 
+function deleteChar() {
+    if (displayContent.length === 0) return;
+    displayContent = displayContent.slice(0, displayContent.length - 1);
+    displayArea.textContent = displayContent;
+}
 function resetCalculator() {
     operandStack = [];
     displayContent = "";
