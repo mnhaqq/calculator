@@ -10,4 +10,4 @@ Calculator created with HTML, CSS and Javascript
 
 ## Usage
 
-Click this link to demo:
+Click this link to demo: https://mnhaqq.github.io/calculator/
