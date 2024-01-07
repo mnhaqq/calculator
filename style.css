@@ -1,0 +1,91 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightblue;
+    width: 380px;
+    height: 500px;
+    border-radius: 30px;
+    border: 2px solid black;
+    margin: 40px;
+    padding: 15px;
+    justify-content: center;
+}
+
+.display {
+    background-color: darkgoldenrod;
+    margin: 10px;
+    padding: 10px;
+    width: 330px;
+    height: 90px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+.buttons {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 10px;
+    height: 340px;
+    width: 350px;
+}
+
+.aux {
+    display: flex;
+    width: 370px;
+    height: 60px;
+    justify-content: space-between;
+    padding: 2px;
+    gap: 7px;
+    margin-bottom: 12px;
+}
+
+.del,
+.clear {
+    border: 2px solid black;
+    flex-basis: 50%;
+    border-radius: 12px;
+    font-size: larger;
+    color: black;
+    font-weight: 600;
+}
+
+.del {
+    background-color: lightcoral;
+}
+
+.clear {
+    background-color: lightgreen;
+}
+
+.functional {
+    display: flex;
+    justify-content: space-between;
+    height: 270px;
+    width: 370px;
+    flex-wrap: wrap;
+}
+
+.num {
+    border: 2px solid black;
+    color: black;
+    font-size: larger;
+    font-weight: 550;
+    border-radius: 8px;
+    margin: 3px;
+    flex-grow: 23%;
+    flex-basis: 23%;
+}
